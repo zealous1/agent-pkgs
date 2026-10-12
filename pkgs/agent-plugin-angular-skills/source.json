@@ -1,11 +1,11 @@
 {
   "name": "angular-skills",
-  "version": "0-unstable-2026-09-28",
+  "version": "0-unstable-2026-10-12",
   "src": {
     "owner": "angular",
     "repo": "skills",
-    "rev": "26881df5d1f6d7536209a9de0ed19f0cae4b77aa",
-    "hash": "sha256-rnD9gDkrRIUGgMk813i4GurxdrtMQ6JCD6rc0Otp2XM="
+    "rev": "d422d3c17e27c9860f3df91b6e617ad80970ba05",
+    "hash": "sha256-fMHwoDpCycUwqx6yws3M/RoZSGjCH+NBc/OtoTgn+kA="
   },
   "sourceUrl": "https://github.com/angular/skills",
   "manifest": {

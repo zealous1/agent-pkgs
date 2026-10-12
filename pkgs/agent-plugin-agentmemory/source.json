@@ -1,11 +1,11 @@
 {
   "name": "agentmemory",
-  "version": "0.9.29",
+  "version": "0.9.30",
   "src": {
     "owner": "rohitg00",
     "repo": "agentmemory",
-    "rev": "ab3e4efd282659b87d31b36c8514c6bc6b871f0b",
-    "hash": "sha256-D1H99PRKnLUCfXOhsx4YhASlQVOGgI7GlTfH77vt5+c="
+    "rev": "6a2b35a4b3cf3f884ed33f6e1839d994e4e7cc4a",
+    "hash": "sha256-0p0TV8NXrWvhYbK9pdgu6OpWlBJfUF+FzIW51tcMNKw="
   },
   "sourceUrl": "https://github.com/rohitg00/agentmemory",
   "manifest": {
@@ -19,7 +19,7 @@
     "license": "Apache-2.0",
     "name": "agentmemory",
     "repository": "https://github.com/rohitg00/agentmemory",
-    "version": "0.9.29"
+    "version": "0.9.30"
   },
   "skills": {
     "agentmemory-agents": "plugin/skills/agentmemory-agents",
@@ -41,20 +41,14 @@
     "write-agentmemory-skill": "plugin/skills/write-agentmemory-skill"
   },
   "requiredRuntimes": [
-    "npx"
+    "node"
   ],
   "mcpServers": {
     "agentmemory": {
       "args": [
-        "-y",
-        "@agentmemory/mcp"
+        "${PLUGIN_ROOT}/scripts/plugin-bridge.mjs"
       ],
-      "command": "npx",
-      "env": {
-        "AGENTMEMORY_SECRET": "${AGENTMEMORY_SECRET:-}",
-        "AGENTMEMORY_TOOLS": "${AGENTMEMORY_TOOLS:-all}",
-        "AGENTMEMORY_URL": "${AGENTMEMORY_URL:-http://localhost:3111}"
-      },
+      "command": "node",
       "type": "stdio"
     }
   },

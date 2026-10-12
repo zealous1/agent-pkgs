@@ -1,11 +1,11 @@
 {
   "name": "squirrelscan",
-  "version": "0-unstable-2026-09-28",
+  "version": "0-unstable-2026-10-12",
   "src": {
     "owner": "squirrelscan",
     "repo": "skills",
-    "rev": "1c9a63511e3aa9e97732e518fa54565ca20efb04",
-    "hash": "sha256-wMdqR9oVKeGXijZe9BAS622lEAOkQyB+df1nwUy5ePk="
+    "rev": "447712f7602ad34e9a41db113d2a8c2db3efae2d",
+    "hash": "sha256-Al3vWa2Hc7L0AUiho5C5rN8sRyRfQd/+3dPHBJucydM="
   },
   "sourceUrl": "https://github.com/squirrelscan/skills",
   "manifest": {
@@ -14,7 +14,7 @@
       "name": "squirrelscan",
       "url": "https://squirrelscan.com"
     },
-    "description": "Website QA tool built for coding agents (Claude Code, Cursor). 260+ rules across SEO, performance, security, accessibility & agent experience: audit from the CLI, fix findings in code, publish reports, and connect over MCP.",
+    "description": "Website QA tool built for coding agents (Claude Code, Cursor). 300+ rules across SEO, performance, security, accessibility & agent experience: audit from the CLI, fix findings in code, publish reports, and connect over MCP.",
     "homepage": "https://squirrelscan.com",
     "keywords": [
       "seo",

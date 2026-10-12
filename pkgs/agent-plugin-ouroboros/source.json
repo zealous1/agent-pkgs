@@ -1,11 +1,11 @@
 {
   "name": "ouroboros",
-  "version": "0.55.0",
+  "version": "0.55.7",
   "src": {
     "owner": "Q00",
     "repo": "ouroboros",
-    "rev": "93b6e219a59ddab5c7022cf2f0340a891df46943",
-    "hash": "sha256-l1FHk0Jrf+VlMaH2huTIMO1idVWiuqXjKZVO+IxNQUg="
+    "rev": "0e23d10403c0e7b11f5d29fa192474aaf1eccb43",
+    "hash": "sha256-AySiqsV/9sNi32JwLDDEONmc3ndTZzEOj4rNPqrZymI="
   },
   "sourceUrl": "https://github.com/Q00/ouroboros",
   "manifest": {
@@ -29,7 +29,7 @@
     "license": "MIT",
     "name": "ouroboros",
     "repository": "https://github.com/Q00/ouroboros",
-    "version": "0.55.0"
+    "version": "0.55.7"
   },
   "skills": {
     "auto": "skills/auto",

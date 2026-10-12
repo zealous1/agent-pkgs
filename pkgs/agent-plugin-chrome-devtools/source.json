@@ -4,8 +4,8 @@
   "src": {
     "owner": "ChromeDevTools",
     "repo": "chrome-devtools-mcp",
-    "rev": "47c5b3753d9bc6da32e261838a033e6427940cf0",
-    "hash": "sha256-Vn6gGy0wxV7mihARJqZhj5HFBooXSVHXDBeIGamBn5M="
+    "rev": "bbb1e36ebf38a942b4dcc789cd4e963939649aaf",
+    "hash": "sha256-WFW2U+gcXNsWR7eTLeaCkQBnDb9MmfthQm4X/iQ0FkY="
   },
   "sourceUrl": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
   "manifest": {

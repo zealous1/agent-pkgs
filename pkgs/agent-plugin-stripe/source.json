@@ -1,11 +1,11 @@
 {
   "name": "stripe",
-  "version": "0.5.3",
+  "version": "0.5.16",
   "src": {
     "owner": "stripe",
     "repo": "ai",
-    "rev": "6a482a7ab5aa0a2e461f68c5c1ea107232a80a45",
-    "hash": "sha256-w88PVYIXWJyUYzH4psZq3CjlJE+Z2zZbEYqjg5AsoI0="
+    "rev": "15e3db59ba17ff4ff08d787333ea803b47f38674",
+    "hash": "sha256-NK5NsveyWjDlLH/B4vuer3JMg6LU3Q0gw3Ng0eePZao="
   },
   "sourceUrl": "https://github.com/stripe/ai",
   "manifest": {
@@ -26,7 +26,7 @@
     "license": "MIT",
     "name": "stripe",
     "repository": "https://github.com/stripe/ai",
-    "version": "0.5.3"
+    "version": "0.5.16"
   },
   "skills": {
     "connect-recommend": "providers/agent-plugins/plugin/skills/connect-recommend",

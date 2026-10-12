@@ -4,8 +4,8 @@
   "src": {
     "owner": "aws",
     "repo": "agent-toolkit-for-aws",
-    "rev": "c126e4444ddc460736b5cb0574255b614275e7a7",
-    "hash": "sha256-Ul6VqPEj5XNuk3Phqlg3NbsZJ2M6qikO/91r3vIrutM="
+    "rev": "5c4b318b14766a8035b75ba144bfafe4326df2d0",
+    "hash": "sha256-OdjEVnfqXzp9IYMOjLVq89MNkqhNkrvD3SAok3tUacM="
   },
   "sourceUrl": "https://github.com/aws/agent-toolkit-for-aws",
   "manifest": {

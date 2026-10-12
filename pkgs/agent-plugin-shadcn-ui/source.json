@@ -1,11 +1,11 @@
 {
   "name": "shadcn-ui",
-  "version": "0-unstable-2026-09-28",
+  "version": "0-unstable-2026-10-12",
   "src": {
     "owner": "shadcn",
     "repo": "ui",
-    "rev": "db2db460a26fa84fb65c8d903b213925fbdee9ed",
-    "hash": "sha256-WiRPDjX5iMez/xYSKVIfXkLZjRYMk5jJ/I8sJk/ghiY="
+    "rev": "993eb2c3151997ce08a49635c10fd8c8ef3713c7",
+    "hash": "sha256-/kIHpR9U88IMYse1N000obBTrjsSP23XrIeahK4/FV0="
   },
   "sourceUrl": "https://github.com/shadcn/ui",
   "manifest": {
@@ -16,7 +16,9 @@
     "migrate-radix-to-base": "skills/migrate-radix-to-base",
     "shadcn": "skills/shadcn"
   },
-  "requiredRuntimes": [],
+  "requiredRuntimes": [
+    "node"
+  ],
   "meta": {
     "description": "Agent plugin imported from https://github.com/shadcn/ui",
     "homepage": "https://github.com/shadcn/ui"

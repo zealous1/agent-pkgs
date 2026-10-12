@@ -1,11 +1,11 @@
 {
   "name": "herdrdev-herdr",
-  "version": "0-unstable-2026-09-29",
+  "version": "0-unstable-2026-10-12",
   "src": {
     "owner": "herdrdev",
     "repo": "herdr",
-    "rev": "9dc3a1df2b563df0637264fc0dffcd607c324ac5",
-    "hash": "sha256-dhAifTJeh8sfK0s/KzUZIo1qHlv+AFit3HOyCT+QC5E="
+    "rev": "212b710b929315044a2c049bbe34b091c82df47d",
+    "hash": "sha256-JllxvjVGUQegynJEVmEs7B8pjQLumrjly0D/vrnS/oA="
   },
   "sourceUrl": "https://github.com/herdrdev/herdr",
   "manifest": {

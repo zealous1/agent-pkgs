@@ -1,11 +1,11 @@
 {
   "name": "foundry-iq-skills",
-  "version": "0.1.5",
+  "version": "0.1.14",
   "src": {
     "owner": "microsoft",
     "repo": "skills",
-    "rev": "23d0dac5f83f268166a17f0bc7dc6c73dc348a33",
-    "hash": "sha256-bELfWe8XWQdF4AnqWXMWGsXfMAjow52VQ9kMREf72Tg="
+    "rev": "91ec09549ca16bd6c44e6ccdef26d61eb2082f07",
+    "hash": "sha256-9jslsUZDBKluzY2BVmvgSkUq8SJmdOIWuLmBS9bJ4zw="
   },
   "sourceUrl": "https://github.com/microsoft/skills",
   "manifest": {
@@ -34,7 +34,7 @@
     "license": "MIT",
     "name": "foundry-iq-skills",
     "repository": "https://github.com/microsoft/github-copilot-for-azure",
-    "version": "0.1.5"
+    "version": "0.1.14"
   },
   "skills": {
     "foundry-iq": ".github/plugins/foundry-iq-skills/skills/foundry-iq"
