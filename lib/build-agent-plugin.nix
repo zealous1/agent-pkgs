@@ -5,7 +5,9 @@
 #   ├── skills/
 #   ├── mcp.json        # optional
 #   ├── bin/            # pinned interpreters, when any are needed
-#   └── ...             # pluginRootPaths entries, e.g. hooks/, scripts/
+#   ├── com.anthropic.claude-code/  # Claude's components; hooks/hooks.json
+#   │                               # is written from `hooks`
+#   └── ...             # pluginRootPaths entries, e.g. scripts/
 #
 # Skill selection, in precedence order:
 #
@@ -70,6 +72,14 @@
   # mcp server configs, serialized to mcp.json; attrset of server
   # name -> config (type/command/...)
 , mcpServers ? null
+  # Claude Code's hooks, the event map Claude reads (event name ->
+  # matcher groups), serialized to hooks/hooks.json inside the
+  # client-extension namespace, or beside a hooks/ that ships at the
+  # plugin root; its interpreters are pinned like any hook's.
+  # `agent-stacks import` reads it from the plugin's manifest and its
+  # hooks/hooks.json (agent-stacks ADR 0050). Not the overrideAttrs
+  # function a generated default.nix binds under the same name.
+, hooks ? null
   # agent-stacks package providing `agent-stacks assemble-plugin` and
   # `agent-stacks check-plugin`; required, because the build phase is a
   # call to it
@@ -258,7 +268,7 @@ let
   # needing a file on disk.
   callFile = pkgs.writeText "source.json" (builtins.toJSON
     (lib.filterAttrs (_: v: v != null) {
-      inherit name skills manifest mcpServers pluginRootPaths;
+      inherit name skills manifest mcpServers hooks pluginRootPaths;
       inherit allowPathCommands extraSubstitutions;
     }));
 in
