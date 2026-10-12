@@ -4,7 +4,7 @@
 #   ├── plugin.json
 #   ├── skills/
 #   ├── mcp.json        # optional
-#   ├── bin/            # pinned interpreters, when any are needed
+#   ├── bin/            # pinned interpreters, beside upstream's own bin/ when it has one
 #   └── ...             # pluginRootPaths entries, e.g. hooks/, scripts/
 #
 # Skill selection, in precedence order:
