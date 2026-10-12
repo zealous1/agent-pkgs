@@ -281,7 +281,11 @@
           # to the real program.
           harness-wrapper =
             let
-              fakeHarness = pkgs.runCommand "fake-harness-1.0" { meta.mainProgram = "fake"; } ''
+              fakeHarness = pkgs.runCommand "fake-harness-1.0" {
+                pname = "fake-harness";
+                version = "1.0";
+                meta.mainProgram = "fake";
+              } ''
                 mkdir -p $out/bin $out/share/fake
                 printf '#!${pkgs.runtimeShell}\necho "real $*"\n' > $out/bin/fake
                 printf '#!${pkgs.runtimeShell}\necho helper\n' > $out/bin/fake-helper
@@ -316,6 +320,10 @@
               [ "$(${wrapped}/bin/fake-helper)" = helper ]
               [ -e ${wrapped}/share/fake/data ]
               [ "${wrapped.meta.mainProgram}" = fake ]
+              # The catalog reads a package's pname and version; the
+              # wrapper must keep the harness's, not leave them unset.
+              [ "${wrapped.pname or "unset"}" = fake-harness ]
+              [ "${wrapped.version or "unset"}" = 1.0 ]
               touch $out
             '';
 
